@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+}
+/*utilities*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*navbar*/
+#nav-left{
+    margin:0px 20px;
+}
+#navbar{
+    width:100%;
+    background-color: rgb(32 33 36);
+    color:rgb(226 226 227);
+    padding: 9px 0px;
+    font-size: 22px;
+}
+#navbar div{
+    padding:9px 11px;
+    display:inline-block;
+} 
+#navbar div ul li{
+    display: inline-block;
+} 
+#navbar ul{
+    list-style: none;
+    display:inline; 
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 6px 13px;
+    border-radius: 40px;
+    color:rgb(226 226 227);
+}
+#search{
+    margin:0px 50px;
+    border: 1px solid rgb(71, 198, 248);
+    border-radius: 9px;
+    padding: 4px 15px;
+    
+}
+#second-navbar{
+    background-color: rgb(32 33 36);
+}
+#second-navbar ul{
+    list-style:none;
+    background-color: rgb(32 33 36);
+    margin:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#second-navbar ul li {
+    list-style:none;
+    align-items: center;
+    justify-content: center;
+    margin:9px 0px;
+    background-color: rgb(32 33 36);
+}
+#second-navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding:0px 10px;
+    
+    border-radius: 23px;
+    color:rgb(226 226 227);
+}
+/* section */
+.head{
+    margin:40px 40px;
+    
+}
+#main-section{
+    background-color: rgb(41 42 45);
+    color:rgb(226 226 227);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sub-section{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin:29px 19px;
+    background-color: rgb(32 33 36);
+    width:25%;
+}
+.sub-section a{
+    text-decoration: none;
+    color:rgb(226 226 227);
+    font-size: 25px;
+}
+.sub-section-head{
+    padding: 5px 5px;
+    margin:5px 5px;
+}
+.article{
+    padding: 10px 10px;
+    margin:2px;
+}
+.news-name{
+    font-size: 17px;
+}
+.news-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+/* footer */
+footer{
+    text-align: center;
+    justify-content: end;
+}
