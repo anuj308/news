@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+}
+
+/* navbar  */
+nav{
+    display: block;
+    background-color: aqua;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+nav div{
+    display: inline;
+}
+#left-div{
+    padding: 0px 20px;
+}
+#center-div{
+    padding: 0px 30px;
+
+}
+#search{
+    width:400px;
+    border-radius: 12px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    
+}
+#right-div ul{
+    display: flex;
+    flex-direction: row;
+}
+#right-div ul li{
+    list-style: none;
+}
+#right-div ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+
+/* main section   -------- */
