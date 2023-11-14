@@ -2,7 +2,7 @@ body {
   background-color: #9f9da7;
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  color: #2b3e51;
+  background-color: rgb(32 33 36);
 }
 
 h2 {
@@ -37,7 +37,7 @@ a:active:hover {
 #login-form-wrap {
   background-color: #fff;
   width: 35%;
-  margin: 30px auto;
+  margin: 80px auto;
   text-align: center;
   padding: 20px 0 0 0;
   border-radius: 4px;
@@ -59,7 +59,7 @@ input {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="password"] {
   width: 100%;
   padding: 0 0 0 10px;
   margin: 0;
@@ -75,27 +75,27 @@ input[type="email"] {
   background: none;
 }
 input[type="text"]:focus,
-input[type="email"]:focus {
+input[type="password"]:focus {
   border-color: #3ca9e2;
 }
 input[type="text"]:focus:invalid,
-input[type="email"]:focus:invalid {
+input[type="password"]:focus:invalid {
   color: #cc1e2b;
   border-color: #cc1e2b;
 }
 input[type="text"]:valid ~ .validation,
-input[type="email"]:valid ~ .validation {
+input[type="password"]:valid ~ .validation {
   display: block;
   border-color: #0C0;
 }
 input[type="text"]:valid ~ .validation span,
-input[type="email"]:valid ~ .validation span {
+input[type="password"]:valid ~ .validation span {
   background: #0C0;
   position: absolute;
   border-radius: 6px;
 }
 input[type="text"]:valid ~ .validation span:first-child,
-input[type="email"]:valid ~ .validation span:first-child {
+input[type="password"]:valid ~ .validation span:first-child {
   top: 30px;
   left: 14px;
   width: 20px;
@@ -104,7 +104,7 @@ input[type="email"]:valid ~ .validation span:first-child {
           transform: rotate(-45deg);
 }
 input[type="text"]:valid ~ .validation span:last-child,
-input[type="email"]:valid ~ .validation span:last-child {
+input[type="password"]:valid ~ .validation span:last-child {
   top: 35px;
   left: 8px;
   width: 11px;

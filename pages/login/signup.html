@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+  <meta charset="UTF-8">
+  <title>Sign up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
+
 <body>
-    
+  <div id="login-form-wrap">
+    <h2>Sign up</h2>
+    <form id="login-form">
+      <p>
+        <input type="text" id="username" name="username" placeholder="Enter new Username" required><i
+          class="validation"><span></span><span></span></i>
+      </p>
+      <p>
+        <input type="password" id="password" name="password" placeholder="Enter new Password" required><i
+          class="validation"><span></span><span></span></i>
+      </p>
+      <p>
+        <input type="submit" id="login" value="Sign up" onclick="signup()">
+      </p>
+    </form>
+    <div id="create-account-wrap">
+      <p>Already a member? <a href="login.html">Login</a>
+      <p>
+    </div>
+  </div>
+  <script src="era.js"></script>
+
+
 </body>
+
 </html>

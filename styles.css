@@ -21,7 +21,7 @@ body{
 }
 #left-div{
     padding: 0px 20px;
-    font-size: larger;
+    font-size: 40px;
 }
 #center-div{
     padding: 0px 30px;
@@ -60,7 +60,13 @@ body{
 #right-div ul li a{
     text-decoration: none;
     color: white;
-    padding: 0px 20px;
+    padding: 10px 20px;
+    border-radius: 22px;
+}
+#right-div ul li a:hover{
+    font-size:18px;
+    background-color: white;
+    color:red;
 }
 
 /* second - navbar  */
@@ -262,3 +268,47 @@ body{
       right: 0;    
     }
   } */
+
+  /* footer */
+footer{
+  background-color: rgb(32 33 36);
+  color:white;
+  height:auto;
+}
+  #footer-heading ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+
+  }
+  #footer-heading ul li{
+    color:white;
+    margin:18px 24px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  #footer-content{
+
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+    margin:20px 20px 0px 20px;
+    padding: 10px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
+  #footer-content ul{
+    list-style: none;
+  }
+  #footer-content ul li{
+    padding:10px 0px;
+    font-size:15px;
+  }
+  #footer-content ul li span{ 
+    padding:10px 0px;
+    font-size:15px;
+    font-weight: 700;
+  }
