@@ -29,6 +29,14 @@ body{
 #search{
     border: 1px solid white;  
     background-color: white;
+    border-radius: 19px;
+    padding:10px 10px;
+}
+#search input{ 
+    width:400px;
+    border-radius: 12px;
+    padding: 10px 10px;
+    border: 1px solid white;  
 }
 #search input{ 
     width:400px;
@@ -39,6 +47,7 @@ body{
 #search-logo{
     height:25px;
     width: 25px;
+    margin: -6px 0px;
 }
 #right-div ul{
     display: flex;
@@ -77,6 +86,7 @@ body{
     font-size: 20px;
     color:red;
     text-decoration: underline;
+    transition: all 0.2s;
 }
 /* main section --------  */
 
@@ -87,15 +97,25 @@ body{
 }
 .full-box{
     border:1px solid white;
-    margin: 10px 91px;
+    margin: auto;
+    width:85%;
     padding: 10px 10px;
     border-radius: 15px;
     box-shadow:rgba(0, 0, 0, 0.22) 0px 5px 21px ,rgba(0, 0, 0, 0.22) 0px 5px 21px;
+}
+.full-box:hover{
+    width:89%;
+}
+.news-pic{
+    height:40px;
+    width:40px;
+    padding:0px 20px;
 }
 
 .news-logo{
     height: 23px;
     width: 98px;
+    
 }
 .news-title a{
     text-decoration: none;
@@ -113,6 +133,9 @@ body{
     border-radius: 15px;
     box-shadow:rgba(0, 0, 0, 0.22) 0px 5px 21px ,rgba(0, 0, 0, 0.22) 0px 5px 21px;
 }
+.half-box:hover{
+    width:30%;
+}
 #all-news{
     display: flex;
     flex-direction: row;
@@ -122,52 +145,119 @@ body{
     flex-wrap: wrap;
 }
 
-
-.btn-one {
-    color: #FFF;
-    transition: all 0.3s;
+/* edit below  */
+/* .half-.half-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-  }
-  .btn-one span {
-    transition: all 0.3s;
-  }
-  .btn-one::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgba(255,255,255,0.5);
-    border-bottom-color: rgba(255,255,255,0.5);
-    transform: scale(0.1, 1);
-  }
-  .btn-one:hover span {
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
     letter-spacing: 2px;
+    transition: 1s box-shadow;
   }
-  .btn-one:hover::before {
-    opacity: 1; 
-    transform: scale(1, 1); 
+  
+  .half-box:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
   }
-  .btn-one::after {
+  
+  .half-box:hover::before, div:hover::after {
+    display: block;
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255,255,255,0.1);
+    width: 250px;
+    height: 250px;
+    background: #FDA8CF;
+    border-radius: 75px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
   }
-  .btn-one:hover::after {
-    opacity: 0; 
-    transform: scale(0.1, 1);
+  
+  .half-box:hover:after {
+    background: #F3CE5E;
+    animation: 2s counterclockwise infinite;
   }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  } */
