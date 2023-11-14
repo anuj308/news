@@ -112,6 +112,8 @@ body{
 }
 .full-box:hover{
     width:89%;
+    height:30%;
+    transition: all 0.2s;
 }
 .news-pic{
     height:40px;
@@ -142,6 +144,8 @@ body{
 }
 .half-box:hover{
     width:30%;
+    height:30%;
+    transition: all 0.2s;
 }
 #all-news{
     display: flex;
