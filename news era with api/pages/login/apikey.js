@@ -1,0 +1,1 @@
+let newsapi = "293e896d927a435eae245b5084a92c52";
