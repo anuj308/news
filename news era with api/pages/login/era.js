@@ -23,12 +23,12 @@ const optionsContainer = document.querySelector(".options-container");
 // "in" stands for India
 const country = "in";
 const options = [
-  "general",
-  "entertainment",
-  "health",
-  "science",
-  "sports",
-  "technology",
+  "General",
+  "Entertainment",
+  "Health",
+  "Science",
+  "Sports",
+  "Technology",
 ];
 
 //100 requests per day
