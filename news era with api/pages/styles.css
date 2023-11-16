@@ -39,12 +39,10 @@ body{
     padding: 10px 10px;
     border: 1px solid white;  
 }
-#search input{ 
-    width:400px;
-    border-radius: 12px;
-    padding: 10px 10px;
+#search input::after{ 
     border: 1px solid white;  
 }
+
 #search-logo{
     height:25px;
     width: 25px;

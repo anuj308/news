@@ -15,11 +15,11 @@ p {
 }
 
 a{
-  color: #3ca9e2;
+  color: #2e8fc4;
   transition: all 0.2s ease;
 }
 a:hover {
-  color: #329dd5;
+  color: #146c9b;
   transition: all 0.2s ease;
 }
 
@@ -37,32 +37,25 @@ a:hover {
   padding: 0 60px;
 }
 
-input {
-  display: block;
-  box-sizing: border-box;
+input{
   width: 100%;
   outline: none;
   height: 60px;
   line-height: 60px;
   border-radius: 4px;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="submit"] {
-  width: 100%;
   padding: 0 0 0 10px;
   margin: 0;
   color: #8a8b8e;
   border: 1px solid #c2c0ca;
-  font-style: normal;
   font-size: 16px;
-  position: relative;
-  display: inline-block;
-  background: none;
 }
 input:focus {
   border-color: #3ca9e2;
+}
+input[type="text"]:hover,input[type="password"]:hover {
+  transition: all 0.2s ease;
+  border: 1px solid #329dd5;
+  color: white;
 }
 input[type="submit"]:hover {
   background-color: #329dd5;
@@ -83,24 +76,63 @@ input[type="submit"] {
   font-weight: 700;
   color: white;
 }
-@media only screen and (max-width:300px) {
-  body {
-      background-color: red;
-  }
-}
-@media only screen and (min-width: 300px) and (max-width:500px) {
-  body {
-      background-color: blue;
 
+@media only screen and (max-width:300px) {
+  body{
+    background-color: red;
+  }
+  #login-box {
+    width:85%;
+    font-size: 1rem;
+    padding: 4px 0 0 0;
+  }
+  #login-form {
+    padding: 0px;
+  }
+  input{
+    width: 81%;
+    height: 33px;
+    line-height: 32px;
+    font-size: 16px;
   }
 }
-@media (min-width: 500px) and (max-width:800px) {
-  body {
-      background-color: yellow;
+
+@media only screen and (min-width: 300px) and (max-width:600px) {
+  body{
+    background-color: blue;
   }
+  #login-box {
+    width:67%;
+    font-size: 1rem;
+    padding: 4px 0 0 0;
+  }
+  #login-form {
+    padding: 1px;
+  }
+  input{
+    width: 70%;
+    height: 33px;
+    line-height: 32px;
+    font-size: 16px;
+  }
+  
 }
-@media (min-width: 800px) {
-  body {
-      background-color: green;
+
+@media only screen and (min-width: 600px) and (max-width:900px) {
+  body{
+    background-color: blue;
+  }
+  #login-box{
+    width:60%;
+  }
+  
+}
+
+@media only screen and (min-width: 900px) and (max-width:1200px) {
+  body{
+    background-color: green;
+  }
+  #login-box{
+    width:45%;
   }
 }
