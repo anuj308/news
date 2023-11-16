@@ -42,7 +42,7 @@ const generateUI = (articles) => {
     card.innerHTML = `
     <a href="${item.url}" target="_blank" class="view-button">
     <div class="news-pic">
-    <img src="${item.urlToImage || "./newspaper.jpg"}" alt="" />
+    <img src="${item.urlToImage}" alt="" />
     </div>
     <div class="article">
       <div class="news-title">
@@ -99,3 +99,6 @@ window.onload = () => {
   requestURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=general&apiKey=${newsapi}`;
   init();
 };
+
+
+

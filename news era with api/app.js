@@ -16,8 +16,11 @@ app.get('/login', (req, res)=>{
 app.get('/signup', (req, res)=>{
     res.sendFile(path.join(__dirname, '/pages/login/signup.html'))
 })
+app.get('/search', (req, res)=>{
+    res.sendFile(path.join(__dirname, '/pages/login/search.html'))
+})
  
 
 app.listen(port, () => {
-  console.log(`Blog app listening at http://localhost:${port}`)
+  console.log(`News Era app listening at http://localhost:${port}`)
 })
