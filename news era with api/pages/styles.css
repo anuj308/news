@@ -125,8 +125,6 @@ input{
   width:38%;
   border-radius: 15px;
   box-shadow:rgba(0, 0, 0, 0.22) 0px 5px 21px ,rgba(0, 0, 0, 0.22) 0px 5px 21px;
-  border: 2px solid black;
-
 }
 .articles-box a{
   text-decoration: none;
@@ -160,19 +158,25 @@ footer{
   color:white;
   height:auto;
 }
-  #footer-heading ul{
+  #footer-heading{
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    list-style: none;
-
   }
-  #footer-heading ul li{
+  #footer-heading div ul{
+    list-style: none;
+  }
+  #footer-heading div ul li{
     color:white;
     margin:18px 24px;
     font-weight: 700;
     font-size: 25px;
+  }
+  #footer-heading ul li span{ 
+    padding:10px 0px;
+    font-size:15px;
+    font-weight: 400;
   }
 
   #footer-content{
@@ -196,4 +200,29 @@ footer{
     padding:10px 0px;
     font-size:15px;
     font-weight: 700;
+  }
+  .font{
+    font-size: 12px;
+  }
+  #footer-logo{
+    
+  }
+  #footer-logo ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #footer-logo ul li{
+    list-style: none;
+    margin:0px 20px;
+  }
+  #footer-logo ul li img{
+    list-style: none;
+    height:33px;
+    width:33px;
+    border-radius: 11px;
+  }
+  #gmail{
+    width:40px;
   }

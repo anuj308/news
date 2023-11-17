@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
     <nav id="first-navbar">
         <div id="left-div">
@@ -18,7 +19,7 @@
             <div id="search">
                 <a href="/search">
                     <img id="search-logo" src="./photo/search.png">
-                    <input id="search-Terms" type="search" placeholder="Search for Topics, Business, Sports etc " >
+                    <input id="search-Terms" type="search" placeholder="Search for Topics, Business, Sports etc ">
                     <button type="submit" id="search-button" onclick="myFunction()">Search</button>
                 </a>
             </div>
@@ -35,24 +36,43 @@
         <div class="options-container"></div>
     </nav>
     <section id="main-section">
-    <div class="container"></div>
+        <div class="container"></div>
     </section>
-      
+
     <footer>
         <div id="footer-heading">
-        <ul>
-        <li onclick="about()">About</li>
-        <li onclick="contact()">Contact</li>
-        <li onclick="Developers()">Developers</li>
-        </ul>
+            <div>
+                <ul>
+                    <li>Services</li>
+                    <li><span>News</span></li>
+                    <li><span>Articles</span></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>About</li>
+                    <li><span>Company</span></li>
+                    <li><span>Team</span></li>
+                </ul>
+            </div>
         </div>
         <div id="footer-content">
-            <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide best news on our news platform.lets learn and grow together</p>
+            <h2>News Era</h2>
+            <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide
+                best news on our news platform.lets learn and grow together</p>
+            <div id="footer-logo">
+                <ul>
+                    <li><img id="gmail" src="./photo/bl.png"></li>
+                    <li><img src="./photo/linkdin.png"></li>
+                    <li><img src="./photo/twitter.png"></li>
+                    <li><img src="./photo/instagram.jpeg"></li>
+                </ul>
+            </div>
         </div>
     </footer>
 
     <script src="./login/era.js"></script>
-    <script src="./login/apikey.js"></script>   
+    <script src="./login/apikey.js"></script>
 </body>
 
 </html>
