@@ -1,8 +1,14 @@
 body {
-  background-color: #9f9da7;
+  background-color: white;
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(32 33 36);
+}
+#newsera-logo img{
+  height: 91px;
+  width: 342px;
+}
+#line{
+  width:87%;
 }
 h2 {
   font-weight: 300;
@@ -11,7 +17,7 @@ h2 {
 #login-box {
   background-color: #fff;
   width: 35%;
-  margin: 80px auto;
+  margin: 40px auto;
   text-align: center;
   padding: 20px 0 0 0;
   border-radius: 4px;
@@ -51,20 +57,32 @@ input[type="text"]:hover,input[type="password"]:hover {
   border-radius: 0 0 4px 4px;
 }
 #sign-up a{
-  color: #2e8fc4;
+  color: #3ca9e2;
   transition: all 0.2s ease;
 }
 a:hover {
   color: #146c9b;
   transition: all 0.2s ease;
 }
-
+#check-box{
+  height:15px;
+  width:15px;
+}
+#rem{
+  font-size: 16px;
+  float:left;
+}
+#forget-p{
+  float:right;
+  font-size: 16px;
+}
 #button{
-  background-color: rgb(14, 186, 244);
+  background-color: #C21807;
   padding: 10px 10px;
+  margin-top: 83px;
 } 
 #button:hover {
-  background-color: #329dd5;
+  background-color: #9b1b0f;
   transition: all 0.2s ease;
   color: white;
 }

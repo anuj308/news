@@ -1,13 +1,13 @@
-function about(){
-    document.getElementById("footer-content").innerHTML=` <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide best news on our news platform.lets learn and grow together</p>`
-}
+// function about(){
+//     document.getElementById("footer-content").innerHTML=` <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide best news on our news platform.lets learn and grow together</p>`
+// }
 
-function Developers(){
-    document.getElementById("footer-content").innerHTML=`<ul>
-    <li><span>Ankit Kumar</span>  &nbsp ankiiiiitx@gmail.com</li>
-    <li><span>Rajababu Kumar</span></li>
-    <li><span>Anuj Kumar Sharma</span></li></ul>`
-}
+// function Developers(){
+//     document.getElementById("footer-content").innerHTML=`<ul>
+//     <li><span>Ankit Kumar</span>  &nbsp ankiiiiitx@gmail.com</li>
+//     <li><span>Rajababu Kumar</span></li>
+//     <li><span>Anuj Kumar Sharma</span></li></ul>`
+// }
 
 const container = document.querySelector(".container");
 const optionsContainer = document.querySelector(".options-container");
@@ -21,6 +21,7 @@ const options = [
   "Sports",
   "Technology",
 ];
+
 
 //100 requests per day
 let requestURL;
@@ -74,12 +75,15 @@ const selectCategory = (e, category) => {
 //Options Buttons
 const createOptions = () => {
   for (let i of options) {
-    optionsContainer.innerHTML += `<button class="option ${
-      i == "general" ? "active" : ""
-    }" onclick="selectCategory(event,'${i}')">${i}</button>`;
+    optionsContainer.innerHTML += `<button class="option ${i == "general" ? "active" : ""
+    }" onclick="selectCategory(event,'${i}') color()">${i}</button>`;
   }
 };
 
+let option = document.getElementsByClassName("option")
+function color(){
+  option.style.color="#FF0000";
+}
 const init = () => {
   optionsContainer.innerHTML = "";
   getNews();

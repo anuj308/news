@@ -5,7 +5,7 @@ body{
 /* navbar  */
 #first-navbar{
     display: block;
-    background-color: rgb(32 33 36);
+    background-color: #C21807;
     color: white;
     padding: 10px 10px;
     display: flex;
@@ -54,13 +54,16 @@ input{
   position: relative;
   z-index: 7;
   border-radius:12px;
+  cursor: pointer;
 }
-#search-button:hover{
+/* #search-button:hover{
   padding: 10px;
   background-color: rgb(32 33 36);
   border: 1px solid rgb(32 33 36);
   color:white;
-}
+  cursor: pointer;
+  
+} */
 #right-div ul{
     display: flex;
     flex-direction: row;
@@ -111,6 +114,12 @@ input{
   font-weight: 700;
   font-size: 18px;
 }
+.option:active{
+  color:red;
+}
+.option:focus{
+  color:red;
+}
 .container{
   display: flex;
   flex-direction: row;
@@ -122,7 +131,7 @@ input{
 .articles-box{
   margin:33px 20px;
   padding:10px 10px;
-  width:38%;
+  width:26%;
   border-radius: 15px;
   box-shadow:rgba(0, 0, 0, 0.22) 0px 5px 21px ,rgba(0, 0, 0, 0.22) 0px 5px 21px;
 }
@@ -132,51 +141,57 @@ input{
 }
 
 .articles-box:hover{
-  width:40%;
+  width:28%;
   transition: all 0.2s;
 }
 .news-pic img{
-  height:300px;
-  width:500px;
+  height: 218px;
+  width: 348px;
 }
 .news-title{
-  width:500px;
+  width:350px;
   margin:10px 10px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 19px;
 }
 .news-description{
-  width:500px;
-  margin:20px 10px;
+  width: 329px;
+  margin: 17px 10px;
+  font-size: 15px;
 }
 .news-description:hover{
   color:red;
 }
 /* footer */
 footer{
-  background-color: rgb(32 33 36);
-  color:white;
+  background-color: #F9F6EE;
+  color:black;
   height:auto;
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
   #footer-heading{
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    
   }
   #footer-heading div ul{
     list-style: none;
   }
-  #footer-heading div ul li{
-    color:white;
+  #footer-heading div ul li{  
     margin:18px 24px;
     font-weight: 700;
     font-size: 25px;
+    color:black;
   }
   #footer-heading ul li span{ 
     padding:10px 0px;
     font-size:15px;
     font-weight: 400;
+    color:black;
   }
 
   #footer-content{
@@ -204,9 +219,7 @@ footer{
   .font{
     font-size: 12px;
   }
-  #footer-logo{
-    
-  }
+
   #footer-logo ul{
     list-style: none;
     display: flex;
@@ -226,3 +239,16 @@ footer{
   #gmail{
     width:40px;
   }
+  #logo-era{
+    padding: 114px 44px;
+    height: 114px;
+    width: 234pxx;
+  } 
+#last-line{
+  background-color: #F9F6EE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+}

@@ -1,12 +1,36 @@
 body {
-  background-color: #9f9da7;
+  background-color: white;
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(32 33 36);
 }
-h2 {
+#head {
   font-weight: 300;
+  font-size: 26px;
   text-align: center;
+}
+#newsera-logo img{
+  height: 91px;
+  width: 342px;
+}
+#line{
+  width:87%;
+}
+#first{
+  width:45%;
+  padding-right: 3px;
+}
+#last{
+  width:45%;
+}
+#check-box{
+  height:15px;
+  width:15px;
+}
+#rem{
+  font-size: 16px;
+}
+#rem a:hover{
+  color: #329dd5;
 }
 #sign-up-box {
   background-color: #fff;
@@ -38,7 +62,7 @@ input:focus {
 input[type="text"]:hover,input[type="password"]:hover {
   transition: all 0.2s ease;
   border: 1px solid #329dd5;
-  color: white;
+  color: black;
 }
 #login {
   background-color: #eeedf1;
@@ -57,11 +81,11 @@ a:hover {
   transition: all 0.2s ease;
 }
 #buttons{
-  background-color: rgb(14, 186, 244);
+  background-color: #C21807;;
   padding: 10px 10px;
 }
 #buttons:hover {
-  background-color: #329dd5;
+  background-color: #9b1b0f;
   transition: all 0.2s ease;
   color: white;
 }
@@ -103,11 +127,37 @@ a:hover {
   }
   input{
     width: 70%;
-    height: 33px;
+    height: 28px;
     line-height: 32px;
     font-size: 16px;
   }
-  
+  #newsera-logo img{
+    height: 45px;
+    width: 163px;
+  }
+  #first{
+    width:33%;
+    padding-right: 3px;
+  }
+  #last{
+    width:33%;
+  }
+  #rem{
+    font-size: 13px;
+  }
+  #check-box{
+    height:10px;
+    width:10px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  #login {
+    padding: 1px 0;
+  }
+  #head {
+    font-size: 22px;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width:900px) {
@@ -117,6 +167,13 @@ a:hover {
   #sign-up-box{
     width:60%;
   }
+  #first{
+    width:40%;
+    padding-right: 3px;
+  }
+  #last{
+    width:40%;
+  }
 } 
 @media only screen and (min-width: 900px) and (max-width:1200px) {
   body{
@@ -124,5 +181,12 @@ a:hover {
   }
   #sign-up-box{
     width:45%;
+  }
+  #first{
+    width:44%;
+    padding-right: 3px;
+  }
+  #last{
+    width:44%;
   }
 }
