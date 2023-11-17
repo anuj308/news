@@ -8,7 +8,7 @@ h2 {
   font-weight: 300;
   text-align: center;
 }
-#login-box {
+#sign-up-box {
   background-color: #fff;
   width: 35%;
   margin: 80px auto;
@@ -17,12 +17,10 @@ h2 {
   border-radius: 4px;
   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
 }
-
-#login-form {
+#sign-up-form {
   padding: 0 60px;
 }
-
-input{
+input {
   width: 100%;
   outline: none;
   height: 60px;
@@ -42,8 +40,7 @@ input[type="text"]:hover,input[type="password"]:hover {
   border: 1px solid #329dd5;
   color: white;
 }
-
-#sign-up {
+#login {
   background-color: #eeedf1;
   color: #8a8b8e;
   font-size: 14px;
@@ -52,38 +49,36 @@ input[type="text"]:hover,input[type="password"]:hover {
   border-radius: 0 0 4px 4px;
 }
 #sign-up a{
-  color: #2e8fc4;
+  color: #3ca9e2; 
   transition: all 0.2s ease;
 }
 a:hover {
-  color: #146c9b;
+  color: #329dd5;
   transition: all 0.2s ease;
 }
-
-#button{
+#buttons{
   background-color: rgb(14, 186, 244);
   padding: 10px 10px;
 }
-#button:hover {
+#buttons:hover {
   background-color: #329dd5;
   transition: all 0.2s ease;
   color: white;
 }
-#co{
+#cos{
   color:white;
   text-decoration: none;
 }
-
 @media only screen and (max-width:300px) {
   body{
     background-color: red;
   }
-  #login-box {
+  #sign-up-box {
     width:85%;
     font-size: 1rem;
     padding: 4px 0 0 0;
   }
-  #login-form {
+  #sign-up-form {
     padding: 0px;
   }
   input{
@@ -98,12 +93,12 @@ a:hover {
   body{
     background-color: blue;
   }
-  #login-box {
+  #sign-up-box {
     width:67%;
     font-size: 1rem;
     padding: 4px 0 0 0;
   }
-  #login-form {
+  #sign-up-form {
     padding: 1px;
   }
   input{
@@ -119,17 +114,15 @@ a:hover {
   body{
     background-color: blue;
   }
-  #login-box{
+  #sign-up-box{
     width:60%;
   }
-  
-}
-
+} 
 @media only screen and (min-width: 900px) and (max-width:1200px) {
   body{
     background-color: green;
   }
-  #login-box{
+  #sign-up-box{
     width:45%;
   }
 }

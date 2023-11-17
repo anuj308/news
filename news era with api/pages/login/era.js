@@ -1,11 +1,6 @@
-function login(){
-    window.open("/index.html","_self")
+function about(){
+    document.getElementById("footer-content").innerHTML=` <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide best news on our news platform.lets learn and grow together</p>`
 }
-function signup(){
-    window.open("/index.html","_self")
-}
-
-
 function contact(){
     document.getElementById("footer-content").innerHTML="<p> Contact:-  newsera@gmail.com </p>"
 }
@@ -16,8 +11,6 @@ function Developers(){
     <li><span>Anuj Kumar Sharma</span></li></ul>`
 }
 
-
-//API Used: http://newsapi.org/s/india-news-api
 const container = document.querySelector(".container");
 const optionsContainer = document.querySelector(".options-container");
 // "in" stands for India
