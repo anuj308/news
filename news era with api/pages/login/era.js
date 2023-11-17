@@ -76,7 +76,7 @@ const selectCategory = (e, category) => {
 const createOptions = () => {
   for (let i of options) {
     optionsContainer.innerHTML += `<button class="option ${i == "general" ? "active" : ""
-    }" onclick="selectCategory(event,'${i}') color()">${i}</button>`;
+    }" onclick="selectCategory(event,'${i}'); color();">${i}</button>`;
   }
 };
 
