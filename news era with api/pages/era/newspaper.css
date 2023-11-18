@@ -97,6 +97,7 @@ body{
     flex-direction: row;
     justify-content: center;
     justify-content:space-evenly;
+    flex-wrap: wrap;
     
 
 }
@@ -104,10 +105,17 @@ body{
     border-radius: 12px;
     padding: 10px 10px;
     margin: 10px 10px;
+    box-shadow:rgba(0, 0, 0, 0.22) 0px 5px 21px ,rgba(0, 0, 0, 0.22) 0px 5px 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .img-book-box img{
-    height: 297px;
-    width: 214px;
+  height: 285px;
+    width: 273px;
+    
+    
 }
 .book-title{
     font-size: 22px;
