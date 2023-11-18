@@ -83,6 +83,13 @@ input{
     color:red;
 }
 
+#loading{
+  height:700px;
+  width:100%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border: 1px solif black;
+}
 /* second - navbar  */
 #second-navbar{
     background-color: white;
