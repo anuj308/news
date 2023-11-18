@@ -97,7 +97,6 @@ body{
     flex-direction: row;
     justify-content: center;
     justify-content:space-evenly;
-    
 
 }
 .book-box{
@@ -113,6 +112,7 @@ body{
     font-size: 22px;
     margin:10px 0px;
     text-align: center;
+    width: 214px;
 }
 .book-read{
     margin:20px 10px;
@@ -136,6 +136,7 @@ body{
     margin: 10px 10px;
 }
 #main-section{
+
     padding: 10px 10px;
     margin: 10px 10px;
 }
