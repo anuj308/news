@@ -334,10 +334,6 @@ footer{
     margin:0px;
     width: 113%;
   }
-  #left-div{
-    padding: 0px 0px;
-    font-size: 0px;
-}
   #first-navbar{
     width: 102%;
     justify-content:space-around;
@@ -346,18 +342,13 @@ footer{
   width: 108%;
 }
   #left-div a{
-    font-size: 15px;
+    font-size: 30px;
   }
   #search input{ 
     width: 1px;
     border-radius: 12px;
     padding: 0px;
     border: 0px solid white;  
-}
-.option{
-  font-size: 15px;
-  margin:2px;
-  padding:2px;
 }
 #seacrh{
   padding:5px 5px;

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Era</title>
     <link rel="stylesheet" href="../era/newspaper.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lexend:wght@500&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lexend:wght@500&family=Raleway:wght@400;700&family=Secular+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,9 +18,9 @@
         </div>
         <div id="center-div">
             <ul>
-                <li><a href="#">MAGAZINE</a></li>
-                <li><a href="#">BOOKS</a></li>
-                <li><a href="#">NEWS</a></li>
+                <li><a href="/Books">BOOKS</a></li>
+                <li><a href="/Newspaper">NEWSPAPER</a></li> 
+                <li><a href="/">NEWS ERA</a></li>
             </ul>
         </div>
         <div id="right-div">
@@ -29,15 +32,16 @@
     </nav>
     <nav id="second-navbar">
         <ul>
-            <li><a href="#">HINDI</a></li>
-            <li><a href="#">ENGLISH</a></li>
-            <li><a href="#">TAMIL</a></li>
-            <li><a href="#">MARATHI</a></li>
-            <li><a href="#">TELUGU</a></li>
+            <li><a href="#ENGLISH">English</a></li>
+            <li><a href="#HINDI">Hindi</a></li>
+            <li><a href="#TAMIL">Tamil</a></li>
+            <li><a href="#MARATHI">Marathi</a></li>
+            <li><a href="#TELUGU">Telugu</a></li>
         </ul>
+        </nav>
     <section id="main-section">
         <div class="book-category">
-            <div class="category-title">ENGLISH</div>
+            <div class="category-title" id="ENGLISH">ENGLISH</div>
             <div class="books">
                 <div class="book-box">
                     <div class="img-book-box">
@@ -107,7 +111,7 @@
             </div>
         </div>
         <div class="book-category">
-            <div class="category-title">HINDI</div>
+            <div class="category-title" id="HINDI">HINDI</div>
             <div class="books">
                 <div class="book-box">
                     <div class="img-book-box">
@@ -178,7 +182,7 @@
             </div>
         </div>
         <div class="book-category">
-            <div class="category-title">TAMIL</div>
+            <div class="category-title" id="TAMIL">TAMIL</div>
             <div class="books">
                 <div class="book-box">
                     <div class="img-book-box">
@@ -217,7 +221,7 @@
                 
         </div>
         <div class="book-category">
-            <div class="category-title">TELUGU</div>
+            <div class="category-title" id="TELUGU">TELUGU</div>
             <div class="books">
                 <div class="book-box">
                     <div class="img-book-box">
@@ -256,7 +260,7 @@
                 
         </div>
         <div class="book-category">
-            <div class="category-title">MARATHI</div>
+            <div class="category-title" id="MARATHI">MARATHI</div>
             <div class="books">
                 <div class="book-box">
                     <div class="img-book-box">
@@ -297,44 +301,45 @@
         </div>
        
     </section>
-    </nav>
+    
     <footer>
-        <div>
-            <img src="../photo/fl-removebg-preview.png" id="logo-era">
+        <div id="footer-nodiv">
+            <img src="./photo/fl-removebg-preview.png" id="logo-era">
         </div>
         <div>
-            <div id="footer-heading">
-                <div>
-                    <ul>
-                        <li>Services</li>
-                        <li><span>News</span></li>
-                        <li><span>Articles</span></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>About</li>
-                        <li><span>Company</span></li>
-                        <li><span>Team</span></li>
-                    </ul>
-                </div>
+        <div id="footer-heading">
+            <div>
+                <ul>
+                    <li>Services</li>
+                    <li><span>News</span></li>
+                    <li><span>Articles</span></li>
+                </ul>
             </div>
-            <div id="footer-content">
-                <h2>News Era</h2>
-                <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We
-                    provide
-                    best news on our news platform.lets learn and grow together</p>
-                <div id="footer-logo">
-                    <ul>
-                        <li><img id="gmail" src="../photo/bl.png"></li>
-                        <li><img src="../photo/linkdin.png"></li>
-                        <li><img src="../photo/twitter.png"></li>
-                        <li><img src="../photo/instagram.jpeg"></li>
-                    </ul>
-                </div>
+            <div>
+                <ul>
+                    <li>About</li>
+                    <li><span onclick="about()">Company</span></li>
+                    <li><span onclick="Teams()">Team</span></li>
+                </ul>
             </div>
+        </div>  
+        <div id="footer-content">
+            <h2>News Era</h2>
+            <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide
+                best news on our news platform.lets learn and grow together</p>
+            <div id="footer-logo">
+                <ul>
+                    <li><img id="gmail" src="./photo/bl.png"></li>
+                    <li><img src="./photo/linkdin.png"></li>
+                    <li><img src="./photo/twitter.png"></li>
+                    <li><img src="./photo/instagram.jpeg"></li>
+                </ul>
+            </div>
+        </div>
         </div>
     </footer>
+    <div id="last-line">Copyright © 2023&nbsp&nbsp www.NewsEra.com &nbsp&nbsp All rights reserved.</div>
+    <script src="../login/function.js"></script>
 </body>
 
 

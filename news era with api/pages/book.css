@@ -39,12 +39,11 @@ body{
 }
 #center-div ul li a{
     text-decoration: none;
-    color:white; 
+    color:white;
     margin: 0px 20px;
     padding: 10px 20px;
     border-radius: 22px;
 }
-
 #center-div ul li a:hover{
   font-size:18px;
   background-color: white;
@@ -58,7 +57,7 @@ body{
     list-style: none;
 }
 #right-div ul li a{
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
     padding: 10px 20px;
     border-radius: 22px;
@@ -87,9 +86,8 @@ body{
 #second-navbar ul li a{
     text-decoration: none;
     color:black;
-    padding:0px 10px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    padding:0px 10px;
 }
 #second-navbar ul li a:hover{
     font-size: 20px;
@@ -104,28 +102,22 @@ body{
     flex-direction: row;
     justify-content: center;
     justify-content:space-evenly;
-    flex-wrap: wrap;
-    
 
 }
 .book-box{
     border-radius: 12px;
     padding: 10px 10px;
     margin: 10px 10px;
-    box-shadow:rgba(0, 0, 0, 0.22) 0px 5px 21px ,rgba(0, 0, 0, 0.22) 0px 5px 21px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 .img-book-box img{
-  height: 230px;
-    width: 295px;
+    height: 297px;
+    width: 214px;
 }
 .book-title{
     font-size: 22px;
     margin:10px 0px;
     text-align: center;
+    width: 214px;
     font-weight: 700;
 }
 .book-read{
@@ -143,23 +135,26 @@ body{
 .category-title{
     font-size: 23px;
     margin: 10px 10px;
+    font-weight: 700;
 }
 .book-category{
     border-radius: 12px;
     padding: 10px 10px;
-    margin: 10px 10px;
-    font-weight: 700;
+    margin: 25px 10px;
+    box-shadow:rgba(0, 0, 0, 0.22) 0px 5px 21px ,rgba(0, 0, 0, 0.22) 0px 5px 21px;
 }
 #main-section{
+
     padding: 10px 10px;
     margin: 10px 10px;
 }
+
 /* footer */
 footer{
   background-color: #F9F6EE;
   color:black;
   height:auto;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -275,7 +270,7 @@ footer{
       body{
         background-color: blue;
         margin:0px;
-        width: 200%;
+        width: 182%;
       }
       #first-navbar{
         width: 112%;
@@ -312,12 +307,11 @@ footer{
     .book-box{
       border-radius: 12px;
       padding: 5px 5px;
-      margin: 5px 10px;
+      margin: 5px 5px;
   }
   .img-book-box img{
-    height: 215px;
-    width: 191px;
-    border-radius: 12px;
+    height: 224px;
+    width: 148px;
   }
   .book-title{
       font-size: 19px;
@@ -352,7 +346,7 @@ footer{
       body{
         background-color: blue;
         margin:0px;
-        width: 150%;
+        width: 139%;
       }
       #first-navbar{
         width: 102%;
@@ -375,19 +369,24 @@ footer{
     #second-navbar {
       width: 108%;
     }
-    #main-section{
-      width:101%;
-    }
+      #left-div a{
+        font-size: 35px;
+      }
     .book-box{
-      padding: 5px 10px;
-      margin: 5px 10px;
+      border-radius: 12px;
+      padding: 5px 5px;
+      margin: 5px 5px;
   }
   .img-book-box img{
     height: 243px;
-    width: 223px;
+    width: 166px;
   }
   .book-title{
-      width: 222px;
+      font-size: 19px;
+      margin:10px 0px;
+      text-align: center;
+      width: 154px;
+      font-weight: 700;
   }
   .book-read{
     margin: 23px 0px;
@@ -414,13 +413,15 @@ footer{
       margin: 5px 5px;
   }
   .img-book-box img{
-    height: 221px;
-    width: 189px;
+    height: 243px;
+    width: 166px;
   }
   .book-title{
       font-size: 19px;
       margin:10px 0px;
-      width: 192px;
+      text-align: center;
+      width: 154px;
+      font-weight: 700;
   }
   .book-read{
     margin: 23px 0px;

@@ -1,17 +1,5 @@
-// function about(){
-//     document.getElementById("footer-content").innerHTML=` <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide best news on our news platform.lets learn and grow together</p>`
-// }
-
-// function Developers(){
-//     document.getElementById("footer-content").innerHTML=`<ul>
-//     <li><span>Ankit Kumar</span>  &nbsp ankiiiiitx@gmail.com</li>
-//     <li><span>Rajababu Kumar</span></li>
-//     <li><span>Anuj Kumar Sharma</span></li></ul>`
-// }
-
 const container = document.querySelector(".container");
 const optionsContainer = document.querySelector(".options-container");
-// "in" stands for India
 const country = "in";
 const options = [ 
   "General",
@@ -22,11 +10,9 @@ const options = [
   "Technology",
 ];
 
-
-//100 requests per day
 let requestURL;
 
-//Create cards from data
+//Created cards from data
 const generateUI = (articles) => {
   for (let item of articles) {
     let card = document.createElement("div");
@@ -49,7 +35,7 @@ const generateUI = (articles) => {
   }
 };
 
-//News API Call
+//calling news API
 const getNews = async () => {
   container.innerHTML = "";
   let response = await fetch(requestURL);
@@ -95,5 +81,47 @@ window.onload = () => {
   init();
 };
 
+// function for footer
+function about(){
+  document.getElementById("footer-content").innerHTML=` <h2>News Era</h2>
+  <p>News era is dedicated to providing you quick and efficient news from all over the world . <br> We provide
+      best news on our news platform.lets learn and grow together</p><div id="footer-logo">
+      <ul>
+          <li><img id="gmail" src="./photo/bl.png"></li>
+          <li><img src="./photo/linkdin.png"></li>
+          <li><img src="./photo/twitter.png"></li>
+          <li><img src="./photo/instagram.jpeg"></li>
+      </ul>
+  </div>`
+}
+
+function Teams() {
+document.getElementById("footer-content").innerHTML = `<ul>
+<li><span>Ankit Kumar</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div id="footer-logo-teams">
+              <ul>
+                  <li><img id="gmail" src="./photo/bl.png"></li>
+                  <li><img src="./photo/linkdin.png"></li>
+                  <li><img src="./photo/twitter.png"></li>
+                  <li><img src="./photo/instagram.jpeg"></li>
+              </ul>
+          </div></li>
+<li><span>Rajababu Kumar</span>&nbsp&nbsp&nbsp&nbsp&nbsp<div id="footer-logo-teams">
+          <ul>
+              <li><img id="gmail" src="./photo/bl.png"></li>
+              <li><img src="./photo/linkdin.png"></li>
+              <li><img src="./photo/twitter.png"></li>
+              <li><img src="./photo/instagram.jpeg"></li>
+          </ul>
+    </div>
+</li>
+<li><span>Anuj Kumar Sharma</span><div id="footer-logo-teams">
+    <ul>
+        <li><img id="gmail" src="./photo/bl.png"></li>
+        <li><img src="./photo/linkdin.png"></li>
+        <li><img src="./photo/twitter.png"></li>
+        <li><img src="./photo/instagram.jpeg"></li>
+    </ul>
+</div></li></ul>`
+}
 
 

@@ -19,8 +19,13 @@ app.get('/signup', (req, res)=>{
 app.get('/search', (req, res)=>{
     res.sendFile(path.join(__dirname, '/pages/login/search.html'))
 })
+app.get('/Books', (req, res)=>{ 
+    res.sendFile(path.join(__dirname, '/pages/era/book.html'))
+})
+app.get('/Newspaper', (req, res)=>{
+    res.sendFile(path.join(__dirname, '/pages/era/newspaper.html'))
+})
  
-
 app.listen(port, () => {
   console.log(`News Era app listening at http://localhost:${port}`)
 })

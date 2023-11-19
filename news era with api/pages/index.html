@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lexend:wght@500&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lexend:wght@500&family=Raleway:wght@400;700&family=Secular+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,12 +38,18 @@
     <nav id="second-navbar">
         <div class="options-container"></div>
     </nav>
+    <nav id="third-navbar">
+        <ul>
+            <li><a href="/Books" id="id">Books</a></li>
+            <li><a href="/Newspaper">Newspaper</a></li>
+        </ul>
+    </nav>
     <section id="main-section">
         <div class="container"></div>
     </section>
 
     <footer>
-        <div >
+        <div id="footer-nodiv">
             <img src="./photo/fl-removebg-preview.png" id="logo-era">
         </div>
         <div>
@@ -55,8 +64,8 @@
             <div>
                 <ul>
                     <li>About</li>
-                    <li><span>Company</span></li>
-                    <li><span>Team</span></li>
+                    <li><span onclick="about()">Company</span></li>
+                    <li><span onclick="Teams()">Team</span></li>
                 </ul>
             </div>
         </div> 
