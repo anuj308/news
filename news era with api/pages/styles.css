@@ -210,6 +210,7 @@ input{
 .news-description:hover{
   color:red;
 }
+
 /* footer */
 footer{
   background-color: #F9F6EE;
@@ -322,15 +323,15 @@ footer{
       border-radius: 8px;
     }
  
-@media only screen and (max-width:300px) {
+/* @media only screen and (max-width:300px) {
   body{
     background-color: red;
   }
-}
+} */
 
 @media only screen and (min-width: 300px) and (max-width:600px) {
   body{
-    background-color: blue;
+    /* background-color: blue; */
     margin:0px;
     width: 113%;
   }
@@ -407,7 +408,7 @@ footer{
 
 @media only screen and (min-width: 600px) and (max-width:900px) {
   body{
-    background-color: blue;
+    /* background-color: blue; */
     margin:0px;
     width: 113%;
   }
@@ -464,9 +465,9 @@ footer{
 }
 
 @media only screen and (min-width: 900px) and (max-width:1200px) {
-  body{
+  /* body{
     background-color: green;
-  }
+  } */
   #search input{ 
     width:250px;
     border-radius: 12px;

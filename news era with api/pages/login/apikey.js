@@ -1,4 +1,4 @@
-let newsapi = "293e896d927a435eae245b5084a92c52";
+let newsapi = "d1110cc1ed704632a81a7ff75b791621";
 container = document.querySelector(".container");
 const generateUIs = (articles) => {
   for (let item of articles) {
@@ -27,7 +27,7 @@ function myFunction() {
   let Container = document.getElementsByClassName("container")
   console.log(term)
   let a = async () => {
-    let p = await fetch(`https://newsapi.org/v2/everything?q=${term}&apiKey=293e896d927a435eae245b5084a92c52`)
+    let p = await fetch(`https://newsapi.org/v2/everything?q=${term}&apiKey=d1110cc1ed704632a81a7ff75b791621`)
     let data = await p.json();
     // p.then((v)=>{
     //     return v.json()

@@ -1,5 +1,6 @@
 const container = document.querySelector(".container");
 const optionsContainer = document.querySelector(".options-container");
+// cn for china
 const country = "in";
 const options = [ 
   "General",

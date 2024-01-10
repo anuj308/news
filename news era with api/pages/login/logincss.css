@@ -92,9 +92,9 @@ a:hover {
 }
 
 @media only screen and (max-width:300px) {
-  body{
+  /* body{
     background-color: red;
-  }
+  } */
   #login-box {
     width:85%;
     font-size: 1rem;
@@ -112,9 +112,9 @@ a:hover {
 }
 
 @media only screen and (min-width: 300px) and (max-width:600px) {
-  body{
+  /* body{
     background-color: blue;
-  }
+  } */
   #login-box {
     width:67%;
     font-size: 1rem;
@@ -160,9 +160,9 @@ a:hover {
 
 
 @media only screen and (min-width: 600px) and (max-width:900px) {
-  body{
+  /* body{
     background-color: blue;
-  }
+  } */
   #login-box{
     width:60%;
   }
@@ -170,9 +170,9 @@ a:hover {
 }
 
 @media only screen and (min-width: 900px) and (max-width:1200px) {
-  body{
+  /* body{
     background-color: green;
-  }
+  } */
   #login-box{
     width:45%;
   }

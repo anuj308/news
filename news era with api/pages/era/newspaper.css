@@ -266,14 +266,14 @@ footer{
       border-radius: 8px;
     }
     @media only screen and (max-width:300px) {
-      body{
+      /* body{
         background-color: red;
-      }
+      } */
     }
     
     @media only screen and (min-width: 300px) and (max-width:600px) {
       body{
-        background-color: blue;
+        /* background-color: blue; */
         margin:0px;
         width: 200%;
       }
@@ -350,7 +350,7 @@ footer{
     
     @media only screen and (min-width: 600px) and (max-width:900px) {
       body{
-        background-color: blue;
+        /* background-color: blue; */
         margin:0px;
         width: 150%;
       }
@@ -405,9 +405,9 @@ footer{
     }
     
     @media only screen and (min-width: 900px) and (max-width:1200px) {
-      body{
+      /* body{
         background-color: green;
-      }
+      } */
     .book-box{
       border-radius: 12px;
       padding: 5px 5px;
